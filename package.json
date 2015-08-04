@@ -1,0 +1,11 @@
+{
+  "name": "meteor-call-async",
+  "version": "0.1.0",
+  "description": "A polyfill for the proposed Meteor.callAsync",
+  "scripts": {
+    "test": "meteor test-packages --velocity ./",
+    "test-pretty": "meteor test-packages --driver-package respondly:test-reporter ./"
+  },
+  "author": "software@grovelabs.io",
+  "license": "ISC"
+}
