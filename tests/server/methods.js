@@ -11,5 +11,5 @@ Meteor.methods({
     throw new Meteor.Error("some-stinkin-error",
       "You did this on purpose, didn't you?"
     );
-  }
+  },
 });

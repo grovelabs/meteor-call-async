@@ -1,10 +1,9 @@
 {
-  "name": "meteor-call-async",
-  "version": "0.1.0",
-  "description": "A polyfill for the proposed Meteor.callAsync",
+  "name": "call-async",
+  "version": "1.0.0",
+  "description": "Call Meteor Methods asynchronously, getting a Promise in return",
   "scripts": {
-    "test": "meteor test-packages --velocity ./",
-    "test-pretty": "meteor test-packages --driver-package respondly:test-reporter ./"
+    "test": "meteor test-packages ./"
   },
   "author": "software@grovelabs.io",
   "license": "ISC"
